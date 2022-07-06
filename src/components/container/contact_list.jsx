@@ -1,11 +1,9 @@
 import React from "react";
+import ContactComponent from "../pure/contact";
 
 const Contact = () => {
   return (<div>
-    <h3>Nombre</h3>
-    <h3>Apellido</h3>
-    <h3>Email</h3>
-    <h4>Conectado</h4>
+    <ContactComponent />
   </div>);
 };
 
