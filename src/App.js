@@ -1,5 +1,6 @@
 import './App.css';
-import TaskListComponent from './components/container/task_list';
+import ContactListComponent from './components/container/contact_list';
+// import TaskListComponent from './components/container/task_list';
 // import GreetingF from './components/pure/greetingF';
 // import Greetings from './components/pure/greetings';
 
@@ -10,7 +11,8 @@ function App() {
         {/* Componente propio greeting*/}
         {/* <Greetings name="1234" /> */}
         {/* <GreetingF name="Fred" /> */}
-        <TaskListComponent />
+        {/* <TaskListComponent /> */}
+        <ContactListComponent />
       </header>
     </div>
   );
