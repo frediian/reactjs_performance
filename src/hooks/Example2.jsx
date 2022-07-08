@@ -16,12 +16,24 @@ const Example2 = () => {
     }
 // useEffect
     /* Case 1 */
-    useEffect(()=>{
-        console.log('Elementos');
-        console.log(myRef);
-    }
+    // useEffect(()=>{
+    //     console.log('Elementos');
+    //     console.log(myRef);
+    // });
 
-    )
+    /* CASE 2  */
+    // useEffect(()=> {
+    //     console.log('Cambios en el COunt 1');
+    //     console.log(myRef);
+    // }, [count1]
+    // );
+
+    /* CASE 3  */
+    useEffect(()=> {
+        console.log('Cambios en el COunt 1 || Count 2');
+        console.log(myRef);
+    }, [count1, count2]
+    );    
 
     return (
         <div>
