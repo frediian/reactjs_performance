@@ -1,5 +1,6 @@
 import './App.css';
-import ContactListComponent from './components/container/contact_list';
+import Example1 from './hooks/Example1';
+// import ContactListComponent from './components/container/contact_list';
 // import TaskListComponent from './components/container/task_list';
 // import GreetingF from './components/pure/greetingF';
 // import Greetings from './components/pure/greetings';
@@ -12,7 +13,8 @@ function App() {
         {/* <Greetings name="1234" /> */}
         {/* <GreetingF name="Fred" /> */}
         {/* <TaskListComponent /> */}
-        <ContactListComponent />
+        {/* <ContactListComponent /> */}
+        <Example1 />
       </header>
     </div>
   );
